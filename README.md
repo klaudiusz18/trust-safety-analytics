@@ -12,9 +12,37 @@ The project demonstrates skills relevant to Trust & Safety Analytics, AI/ML qual
 
 ![Executive Dashboard](screenshots/Executive_Dashboard.PNG)
 
+### Model Performance
+
+![Model Performance](screenshots/Model_Performance.PNG)
+
+**Takeaway:** v3.2 provides the strongest overall balance of precision, recall and F1, while v3.3 achieves the highest recall at the cost of lower precision.
+
+### Monthly Operational Trends
+
+![Monthly Operational Trends](screenshots/Monthly_Operational_Trends.PNG)
+
+### Policy Risk Hotspots
+
+![Policy Risk Hotspots](screenshots/Policy_Risk_Hotspots.PNG)
+
+**Takeaway:** Regulated Goods has the highest missed-violation rate at 22.5% in the synthetic analysis.
+
 ### Trust & Safety Investigation
 
 ![Trust & Safety Investigation](screenshots/Trust_Safety_Investigation.PNG)
+
+### Model Error Analysis
+
+![False Positives vs False Negatives](screenshots/False_Positive_Negative_Analysis.PNG)
+
+### Escalation Analysis
+
+![Escalation Rate by AI-Human Agreement](screenshots/Escalation_Rate_Agreement.PNG)
+
+### Appeal Analysis
+
+![Appeal Change Rate by AI-Human Agreement](screenshots/Appeal_Change_Rate_Agreement.PNG)
 
 ## Tools
 
@@ -40,11 +68,11 @@ Synthetic Trust & Safety dataset covering approximately 10,000 cases, users, pol
 | **v3.2** | **94.0%** | **89.7%** | **91.8%** |
 | v3.3 | 89.5% | **92.3%** | 90.9% |
 
-**Recommendation:** v3.2 provides the strongest overall balance of precision, recall and F1. v3.3 improves recall but creates more false positives.
+**Recommendation:** v3.2 is the preferred baseline model in this synthetic analysis. v3.3 improves recall but creates more false positives.
 
 ### Policy Risk
 
-**Regulated Goods** is the main synthetic safety hotspot, with a **22.5% missed-violation rate**, materially above the other policies.
+**Regulated Goods** is the main synthetic safety hotspot, with a **22.5% missed-violation rate**.
 
 ### Operational KPIs
 
@@ -64,8 +92,6 @@ For model v3.2, disagreement did **not** increase escalation or appeal-change ra
 | Agreement | 18.5% | 33.8% |
 | Disagreement | 16.7% | 31.2% |
 
-This demonstrates testing assumptions against data rather than treating them as facts.
-
 ## SQL Skills Demonstrated
 
 - Joins and aggregations
@@ -83,7 +109,7 @@ This demonstrates testing assumptions against data rather than treating them as 
 ## Project Structure
 
 ```text
-Trust & Safety SQL Projects/
+trust-safety-analytics/
 ├── README.md
 ├── sql/
 │   ├── 01_schema.sql
@@ -94,8 +120,6 @@ Trust & Safety SQL Projects/
 ├── powerbi/
 │   └── Trust_Safety_Analytics.pbix
 ├── screenshots/
-│   ├── Executive_Dashboard.png
-│   └── Trust_Safety_Investigation.png
 └── documentation/
 ```
 
