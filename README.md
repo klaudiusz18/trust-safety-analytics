@@ -14,17 +14,17 @@ The project demonstrates skills relevant to Trust & Safety Analytics, AI/ML qual
 
 ### Model Performance
 
-![Model Performance](screenshots/Model_Performance.PNG)
+![Model Performance](screenshots/Model_Performance.png)
 
 **Takeaway:** v3.2 provides the strongest overall balance of precision, recall and F1, while v3.3 achieves the highest recall at the cost of lower precision.
 
 ### Monthly Operational Trends
 
-![Monthly Operational Trends](screenshots/Monthly_Operational_Trends.PNG)
+![Monthly Operational Trends](screenshots/Monthly_Operational_Trends.png)
 
 ### Policy Risk Hotspots
 
-![Policy Risk Hotspots](screenshots/Policy_Risk_Hotspots.PNG)
+![Policy Risk Hotspots](screenshots/Policy_Risk_Hotspots.png)
 
 **Takeaway:** Regulated Goods has the highest missed-violation rate at 22.5% in the synthetic analysis.
 
@@ -34,15 +34,15 @@ The project demonstrates skills relevant to Trust & Safety Analytics, AI/ML qual
 
 ### Model Error Analysis
 
-![False Positives vs False Negatives](screenshots/False_Positive_Negative_Analysis.PNG)
+![False Positives vs False Negatives](screenshots/False_Positive_Negative_Analysis.png)
 
 ### Escalation Analysis
 
-![Escalation Rate by AI-Human Agreement](screenshots/Escalation_Rate_Agreement.PNG)
+![Escalation Rate by AI-Human Agreement](screenshots/Escalation_Rate_Agreement.png)
 
 ### Appeal Analysis
 
-![Appeal Change Rate by AI-Human Agreement](screenshots/Appeal_Change_Rate_Agreement.PNG)
+![Appeal Change Rate by AI-Human Agreement](screenshots/Appeal_Change_Rate_Agreement.png)
 
 ## Tools
 
