@@ -10,11 +10,11 @@ The project demonstrates skills relevant to Trust & Safety Analytics, AI/ML qual
 
 ### Executive Dashboard
 
-![Executive Dashboard](screenshots/Executive_Dashboard.png)
+![Executive Dashboard](screenshots/Executive_Dashboard.PNG)
 
 ### Trust & Safety Investigation
 
-![Trust & Safety Investigation](screenshots/Trust_Safety_Investigation.png)
+![Trust & Safety Investigation](screenshots/Trust_Safety_Investigation.PNG)
 
 ## Tools
 
