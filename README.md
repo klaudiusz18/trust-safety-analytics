@@ -12,37 +12,59 @@ The project demonstrates skills relevant to Trust & Safety Analytics, AI/ML qual
 
 ![Executive Dashboard](screenshots/Executive_Dashboard.PNG)
 
+A high-level view of Trust & Safety KPIs, AI model performance, operational trends and policy-level risk indicators.
+
 ### Model Performance
 
 ![Model Performance](screenshots/Model_Performance.png)
 
-**Takeaway:** v3.2 provides the strongest overall balance of precision, recall and F1, while v3.3 achieves the highest recall at the cost of lower precision.
+This chart compares precision, recall and F1 across three AI moderation model versions to evaluate changes in detection quality and the trade-off between catching violations and avoiding false positives.
+
+**Key finding:** v3.2 provides the strongest overall balance of precision, recall and F1, while v3.3 achieves the highest recall at the cost of lower precision.
 
 ### Monthly Operational Trends
 
 ![Monthly Operational Trends](screenshots/Monthly_Operational_Trends.png)
 
+This chart tracks monthly Trust & Safety case volume and escalation rate to show how operational workload and escalation pressure changed over time.
+
 ### Policy Risk Hotspots
 
 ![Policy Risk Hotspots](screenshots/Policy_Risk_Hotspots.png)
 
-**Takeaway:** Regulated Goods has the highest missed-violation rate at 22.5% in the synthetic analysis.
+This chart compares missed-violation rates across policy categories to identify where the moderation model is most likely to miss genuine policy violations.
+
+**Key finding:** Regulated Goods has the highest missed-violation rate at 22.5%, making it the primary synthetic model-risk hotspot.
 
 ### Trust & Safety Investigation
 
 ![Trust & Safety Investigation](screenshots/Trust_Safety_Investigation.PNG)
 
+A deeper investigation view focused on model error trade-offs, AI-human agreement, escalation behaviour, appeal outcomes and analytical recommendations.
+
 ### Model Error Analysis
 
 ![False Positives vs False Negatives](screenshots/False_Positive_Negative_Analysis.png)
+
+This chart compares false-positive and false-negative volumes across model versions, helping assess the safety and operational trade-offs introduced by each release.
+
+**Key finding:** v3.3 reduces false negatives but produces substantially more false positives than v3.2.
 
 ### Escalation Analysis
 
 ![Escalation Rate by AI-Human Agreement](screenshots/Escalation_Rate_Agreement.png)
 
+This chart compares escalation rates for cases where the AI prediction agreed or disagreed with the human review decision, testing whether model disagreement is associated with greater operational escalation.
+
+**Result:** In this synthetic dataset, disagreement does not lead to a higher escalation rate; disagreement cases show 16.7% versus 18.5% for agreement cases.
+
 ### Appeal Analysis
 
 ![Appeal Change Rate by AI-Human Agreement](screenshots/Appeal_Change_Rate_Agreement.png)
+
+This chart compares appeal-change rates between AI-human agreement and disagreement cases to assess whether model disagreement is associated with different appeal outcomes.
+
+**Result:** Appeal-change rates are similar between agreement and disagreement cases, at 33.8% and 31.2% respectively.
 
 ## Tools
 
@@ -120,6 +142,14 @@ trust-safety-analytics/
 ├── powerbi/
 │   └── Trust_Safety_Analytics.pbix
 ├── screenshots/
+│   ├── Executive_Dashboard.PNG
+│   ├── Trust_Safety_Investigation.PNG
+│   ├── Model_Performance.PNG
+│   ├── Monthly_Operational_Trends.PNG
+│   ├── Policy_Risk_Hotspots.PNG
+│   ├── False_Positive_Negative_Analysis.PNG
+│   ├── Escalation_Rate_Agreement.PNG
+│   └── Appeal_Change_Rate_Agreement.PNG
 └── documentation/
 ```
 
