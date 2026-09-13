@@ -6,6 +6,16 @@ End-to-end Trust & Safety analytics project using PostgreSQL, SQL and Power BI t
 
 The project demonstrates skills relevant to Trust & Safety Analytics, AI/ML quality analysis, SQL, data quality, operational analytics and risk prioritisation.
 
+## Power BI Dashboard
+
+### Executive Dashboard
+
+![Executive Dashboard](screenshots/Executive_Dashboard.png)
+
+### Trust & Safety Investigation
+
+![Trust & Safety Investigation](screenshots/Trust_Safety_Investigation.png)
+
 ## Tools
 
 - PostgreSQL
@@ -34,7 +44,7 @@ Synthetic Trust & Safety dataset covering approximately 10,000 cases, users, pol
 
 ### Policy Risk
 
-Regulated Goods is the main synthetic safety hotspot, with a **22.5% missed-violation rate**, materially above the other policies.
+**Regulated Goods** is the main synthetic safety hotspot, with a **22.5% missed-violation rate**, materially above the other policies.
 
 ### Operational KPIs
 
@@ -47,7 +57,7 @@ Regulated Goods is the main synthetic safety hotspot, with a **22.5% missed-viol
 
 ### AI-Human Agreement
 
-For model v3.2, disagreement did **not** increase escalation or appeal-change rates in this dataset:
+For model v3.2, disagreement did **not** increase escalation or appeal-change rates in this dataset.
 
 | Status | Escalation Rate | Appeal Change Rate |
 |---|---:|---:|
@@ -55,14 +65,6 @@ For model v3.2, disagreement did **not** increase escalation or appeal-change ra
 | Disagreement | 16.7% | 31.2% |
 
 This demonstrates testing assumptions against data rather than treating them as facts.
-
-## Power BI Dashboard
-
-### Executive Dashboard
-High-level KPIs, model performance, monthly operational trends and policy risk hotspots.
-
-### Trust & Safety Investigation
-Model error trade-offs, AI-human agreement analysis, escalation and appeal investigation, key findings and recommendation.
 
 ## SQL Skills Demonstrated
 
@@ -92,6 +94,8 @@ Trust & Safety SQL Projects/
 ├── powerbi/
 │   └── Trust_Safety_Analytics.pbix
 ├── screenshots/
+│   ├── Executive_Dashboard.png
+│   └── Trust_Safety_Investigation.png
 └── documentation/
 ```
 
